@@ -6,6 +6,9 @@ int main(void){
     return 0;
 }
 
+void decirHola(char* nombre){
+    printf("Hola %s, Como estas?",nombre);
+}
 void Mensaje(){
     printf("Otro mensaje")   
 }
